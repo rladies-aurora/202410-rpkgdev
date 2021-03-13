@@ -240,7 +240,7 @@ See also JOSS, R Journal, JSS.
 Questions?
 ----------
 
-Write them in the Zoom chat, or as a comment in the course website, or as an issue in the course repository.
+Write them in the shared doc.
 
 ------------------------------------------------------------------------
 

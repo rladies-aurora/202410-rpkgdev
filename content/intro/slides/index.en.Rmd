@@ -11,27 +11,9 @@ countdown: true
 
 # Become an R Package Developer!
 
-:wave: Hei!
+:wave: Hello!
 
----
 
-## I've never been in Bergen
-
-:sob:
-
-But... I've been to Norway two times when I was an intern in Gothenburg, Sweden!
-
----
-
-```{=html}
-{{< figure src="palace.JPG" alt="Maëlle in front of royal palace in Oslo" caption="Me in front of royal Palace in Oslo, 2010" width=500 >}}
-```
-
----
-
-```{=html}
-{{< figure src="evenstad.JPG" alt="Maëlle standing and laughing on a dirt road" caption="Me in (near?) Evenstad, 2010. Picture by Anne-Sophie Bonnet-Lebrun" width=500 >}}
-```
 ---
 
 ## My R package development creds
@@ -44,7 +26,7 @@ I really :heart: R package development
 
 * Created the [R-hub blog](https://blog.r-hub.io) (:wave: [guest author Julia](https://blog.r-hub.io/2020/01/08/cran-error/)!)
 
-* Working on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book
+* Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book
 
 
 ---
@@ -86,6 +68,16 @@ Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
 * Could you _learn_ how to write a function in R?
 
 * **You can write a package in R**
+
+---
+
+## Learn about functions
+
+* [Materials from Stephanie Kirmer's tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions) :wink:
+
+* [Write your own R functions](https://stat545.com/functions-part1.html), stat 545 course by Jenny Bryan and The STAT 545 TAs;
+* [Chapter about functions](https://r4ds.had.co.nz/functions.html) in the book "R for Data Science" by Garrett Grolemund and Hadley Wickham;
+* [Fun with Functions talk](https://www.kaylea.co.uk/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
 
 ---
 
@@ -158,9 +150,35 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 ## R CMD check (devtools::check())
 
-```{=html}
-{{< figure src="sign.JPG" alt="Sign near a dirt road, indicating there might be farm animals" caption="Picture by Anne-Sophie Bonnet-Lebrun" width=500 >}}
+```{r, echo=FALSE}
+library("magrittr")
+get_pic <- function(id, alt, width) {
+  
+  info <- httr::GET(
+    paste0("https://api.pexels.com/v1/photos/", id),
+    httr::add_headers(Authorization = Sys.getenv("PEXELS_KEY"))
+  ) %>%
+    httr::content()
+  download.file(info$src$large, paste0(id, ".jpeg"))
+  cat("```{=html}\n")
+cat(paste0('{', '{< figure src="',
+paste0(id, ".jpeg"),
+'" alt="',
+alt,
+'" caption="Picture by [',
+info$photographer,
+' on Pexels](',
+info$url,
+')." width="',
+width , '" >}', '}'))
+cat("\n```\n")
+}
 ```
+
+```{r traffic, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 1727004, alt = "Green traffic light", 500)
+```
+
 
 ---
 
@@ -196,7 +214,7 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 ## Questions?
 
-Write them in the Zoom chat, or as a comment in the course website, or as an issue in the course repository.
+Write them in the doc.
 
 ---
 

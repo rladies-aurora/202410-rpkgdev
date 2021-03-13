@@ -7,36 +7,17 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: ac90e67a32440a98
+rmd_hash: e3412a5edb8749ec
 
 ---
 
-Become an R Package Developer!
-==============================
+# Become an R Package Developer!
 
-:wave: Hei!
-
-------------------------------------------------------------------------
-
-I've never been in Bergen
--------------------------
-
-:sob:
-
-But... I've been to Norway two times when I was an intern in Gothenburg, Sweden!
+:wave: Hello!
 
 ------------------------------------------------------------------------
 
-{{< figure src="palace.JPG" alt="Maëlle in front of royal palace in Oslo" caption="Me in front of royal Palace in Oslo, 2010" width=500 >}}
-
-------------------------------------------------------------------------
-
-{{< figure src="evenstad.JPG" alt="Maëlle standing and laughing on a dirt road" caption="Me in (near?) Evenstad, 2010. Picture by Anne-Sophie Bonnet-Lebrun" width=500 >}}
-
-------------------------------------------------------------------------
-
-My R package development creds
-------------------------------
+## My R package development creds
 
 I really :heart: R package development
 
@@ -46,12 +27,11 @@ I really :heart: R package development
 
 -   Created the [R-hub blog](https://blog.r-hub.io) (:wave: [guest author Julia](https://blog.r-hub.io/2020/01/08/cran-error/)!)
 
--   Working on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book
+-   Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book
 
 ------------------------------------------------------------------------
 
-Why develop an R package?
--------------------------
+## Why develop an R package?
 
 Easiest way to share code/data/R Markdown templates... with
 
@@ -63,8 +43,7 @@ Easiest way to share code/data/R Markdown templates... with
 
 ------------------------------------------------------------------------
 
-Why learning about package development?
----------------------------------------
+## Why learning about package development?
 
 [Jon Calder](https://joncalder.co.za/)'s very good [wording](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
 
@@ -76,8 +55,7 @@ Why learning about package development?
 
 ------------------------------------------------------------------------
 
-Who can write a package? YOU!
------------------------------
+## Who can write a package? YOU!
 
 Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
 
@@ -93,8 +71,19 @@ Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
 
 ------------------------------------------------------------------------
 
-What is a package?
-------------------
+## Learn about functions
+
+-   [Materials from Stephanie Kirmer's tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions) :wink:
+
+-   [Write your own R functions](https://stat545.com/functions-part1.html), stat 545 course by Jenny Bryan and The STAT 545 TAs;
+
+-   [Chapter about functions](https://r4ds.had.co.nz/functions.html) in the book "R for Data Science" by Garrett Grolemund and Hadley Wickham;
+
+-   [Fun with Functions talk](https://www.kaylea.co.uk/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
+
+------------------------------------------------------------------------
+
+## What is a package?
 
 > Pour réduire ses craintes, il faut se dire que ce n'est ni plus ni moins qu'un dossier organisé d'une manière contrainte.
 
@@ -104,22 +93,19 @@ What is a package?
 
 ------------------------------------------------------------------------
 
-Automation!
------------
+## Automation!
 
 {{< figure src="automate_meme.jpg" alt="Small monster saying to automate all the things" caption="Meme image by [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)" >}}
 
 ------------------------------------------------------------------------
 
-Automating... How?
-------------------
+## Automating... How?
 
 Remember Clippy?
 
 ------------------------------------------------------------------------
 
-Automating... How?
-------------------
+## Automating... How?
 
 Get to know an actually useful Clippy, `{usethis}`!
 
@@ -127,24 +113,21 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ------------------------------------------------------------------------
 
-`usethis` and co
-----------------
+## `usethis` and co
 
 {{< tweet 935562495816753153 >}}
 
 ------------------------------------------------------------------------
 
-Website tour
-------------
+## Website tour
 
-:link: <a href="https://tiny.cc/r-pkg" class="uri">https://tiny.cc/r-pkg</a>
+:link: <https://tiny.cc/r-pkg>
 
 Slides, notes from the demo, further resources, comments!
 
 ------------------------------------------------------------------------
 
-Time for a demo :rocket:
-------------------------
+## Time for a demo :rocket:
 
 Notes on the [course website](/intro/demo)
 
@@ -152,8 +135,7 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 ------------------------------------------------------------------------
 
-Back from the demo
-------------------
+## Back from the demo
 
 -   [`devtools::load_all()`](https://devtools.r-lib.org//reference/load_all.html) (and then install)
 
@@ -161,15 +143,21 @@ Back from the demo
 
 ------------------------------------------------------------------------
 
-R CMD check (devtools::check())
--------------------------------
+## R CMD check (devtools::check())
 
-{{< figure src="sign.JPG" alt="Sign near a dirt road, indicating there might be farm animals" caption="Picture by Anne-Sophie Bonnet-Lebrun" width=500 >}}
+<div class="highlight">
+
+</div>
+
+<div class="highlight">
+
+{{< figure src="1727004.jpeg" alt="Green traffic light" caption="Picture by [Davis Sanchez on Pexels](https://www.pexels.com/photo/black-traffic-light-1727004/)." width="500" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
-So what's really hard?
-----------------------
+## So what's really hard?
 
 -   Writing good code
 
@@ -179,8 +167,7 @@ So what's really hard?
 
 ------------------------------------------------------------------------
 
-More with packages
-------------------
+## More with packages
 
 -   [`usethis::use_rmarkdown_template()`](https://usethis.r-lib.org/reference/use_rmarkdown_template.html)
 
@@ -192,8 +179,7 @@ More with packages
 
 ------------------------------------------------------------------------
 
-Less with packages
-------------------
+## Less with packages
 
 -   If developing a package for wider distribution, check it does not exist yet.
 
@@ -201,15 +187,13 @@ Less with packages
 
 ------------------------------------------------------------------------
 
-Questions?
-----------
+## Questions?
 
-Write them in the Zoom chat, or as a comment in the course website, or as an issue in the course repository.
+Write them in the doc.
 
 ------------------------------------------------------------------------
 
-Time for a break! :coffee:
---------------------------
+## Time for a break! :coffee:
 
 <!--html_preserve-->
 

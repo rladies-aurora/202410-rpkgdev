@@ -4,8 +4,9 @@ title: "Become an R Package Developer!"
 
 # Become an R Package Developer!
 
-> Monday, November the 2d, 2020. 15:30 to 17:30 UTC+1.
-> [Event info on Meetup](https://www.meetup.com/fr-FR/rladies-bergen/events/273923747/)
+> Friday, March the 26th, 2021. 13:00 to 15:00 UTC−4.
+> R-Ladies East-Lansing & R-Ladies Chicago
+> [Event info on Meetup](https://www.meetup.com/rladies-east-lansing/events/275631302/)
 
 "Develop an R package", they said...
 What does this even mean?

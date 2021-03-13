@@ -38,9 +38,35 @@ Especially is open-source work happens in your free time.
 
 Right amount of time, right task fit.
 
-```{=html}
-{{< figure src="lake.JPG" alt="Small lake in Norway" caption="Picture by Anne-Sophie Bonnet-Lebrun" width=300 >}}
+```{r, echo=FALSE}
+library("magrittr")
+get_pic <- function(id, alt, width) {
+  
+  info <- httr::GET(
+    paste0("https://api.pexels.com/v1/photos/", id),
+    httr::add_headers(Authorization = Sys.getenv("PEXELS_KEY"))
+  ) %>%
+    httr::content()
+  download.file(info$src$large, paste0(id, ".jpeg"))
+  cat("```{=html}\n")
+cat(paste0('{', '{< figure src="',
+paste0(id, ".jpeg"),
+'" alt="',
+alt,
+'" caption="Picture by [',
+info$photographer,
+' on Pexels](',
+info$url,
+')." width="',
+width , '" >}', '}'))
+cat("\n```\n")
+}
 ```
+
+```{r desk, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 2312369, alt = "Desk with computer, phone, notebook, coffee", 300)
+```
+
 
 ---
 
@@ -77,6 +103,8 @@ Both rewarding and time-consuming
 
 * Governance file?
 
+[Future rOpenSci comm call, stay tuned!](https://github.com/ropensci-org/community-calls/issues/21)
+
 ---
 
 ## Others' packages?
@@ -111,7 +139,7 @@ What packages? Packages...
 
 ---
 
-`r hugodown::embed_tweet("1209157151047864325")`
+`r hugodown::embed_tweet("1338879697053077509")`
 
 ---
 

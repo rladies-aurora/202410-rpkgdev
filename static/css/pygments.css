@@ -126,3 +126,13 @@ pre code {
 .reveal code {
     font-size: inherit;
   }
+  
+
+figcaption {
+  font-size: smaller;
+}
+
+div.twitter-tweet {
+margin-left: auto;
+margin-right: auto;
+}

@@ -6,17 +6,15 @@ hidden: true
 layout: list
 weight: 11
 output: hugodown::md_document
-rmd_hash: 4ee76ffc42b12dce
+rmd_hash: e216689425c9f5e6
 
 ---
 
-How to find your happy place in the world of R package development
-==================================================================
+# How to find your happy place in the world of R package development
 
 ------------------------------------------------------------------------
 
-Why contribute to open-source?
-------------------------------
+## Why contribute to open-source?
 
 -   Enjoy it?
 
@@ -28,8 +26,7 @@ Why contribute to open-source?
 
 ------------------------------------------------------------------------
 
-R package development?
-----------------------
+## R package development?
 
 There are other ways to contribute including community building.
 
@@ -37,19 +34,25 @@ This slidedeck focuses on R package development. :wink:
 
 ------------------------------------------------------------------------
 
-Find your happy place
----------------------
+## Find your happy place
 
 Especially is open-source work happens in your free time.
 
 Right amount of time, right task fit.
 
-{{< figure src="lake.JPG" alt="Small lake in Norway" caption="Picture by Anne-Sophie Bonnet-Lebrun" width=300 >}}
+<div class="highlight">
+
+</div>
+
+<div class="highlight">
+
+{{< figure src="2312369.jpeg" alt="Desk with computer, phone, notebook, coffee" caption="Picture by [Andrew Neel on Pexels](https://www.pexels.com/photo/macbook-pro-on-brown-wooden-table-2312369/)." width="300" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
-Your package(s)
----------------
+## Your package(s)
 
 -   Ownership can be great! Your rules, your name.
 
@@ -57,15 +60,13 @@ Your package(s)
 
 ------------------------------------------------------------------------
 
-Your package(s)
----------------
+## Your package(s)
 
 {{< figure src="babies.JPG" alt="Sculpture of a man attacked by angry babies" caption="Vigeland installation, Frogner Park, Oslo" width=300 >}}
 
 ------------------------------------------------------------------------
 
-Your package(s)
----------------
+## Your package(s)
 
 Interactions with users and contributors!
 
@@ -73,8 +74,7 @@ Both rewarding and time-consuming
 
 ------------------------------------------------------------------------
 
-Make your repo a friendly place
--------------------------------
+## Make your repo a friendly place
 
 -   Contributing guide (what are your expectations?)
 
@@ -82,10 +82,11 @@ Make your repo a friendly place
 
 -   Governance file?
 
+[Future rOpenSci comm call, stay tuned!](https://github.com/ropensci-org/community-calls/issues/21)
+
 ------------------------------------------------------------------------
 
-Others' packages?
------------------
+## Others' packages?
 
 -   A way for you to start
 
@@ -95,8 +96,7 @@ Others' packages?
 
 ------------------------------------------------------------------------
 
-Others' packages
-----------------
+## Others' packages
 
 -   First watch development and interactions, read contributing guide.
 
@@ -104,8 +104,7 @@ Others' packages
 
 ------------------------------------------------------------------------
 
-Others' packages
-----------------
+## Others' packages
 
 What packages? Packages...
 
@@ -119,7 +118,7 @@ What packages? Packages...
 
 ------------------------------------------------------------------------
 
-{{< tweet 1209157151047864325 >}}
+{{< tweet 1338879697053077509 >}}
 
 ------------------------------------------------------------------------
 
@@ -127,8 +126,7 @@ What packages? Packages...
 
 ------------------------------------------------------------------------
 
-Others' packages
-----------------
+## Others' packages
 
 Now often your name won't be on it, maybe only in the changelog.
 
@@ -136,15 +134,13 @@ How to still display your skills? Blogging, talks?
 
 ------------------------------------------------------------------------
 
-Disclaimer
-----------
+## Disclaimer
 
 This was a very brief presentation, and a complex topic.
 
 ------------------------------------------------------------------------
 
-Further resources
------------------
+## Further resources
 
 -   [book "Working in Public: The Making and Maintenance of Open Source Software"](https://www.goodreads.com/book/show/54140556-working-in-public) by Nadia Eghbal
 
@@ -154,12 +150,11 @@ Further resources
 
 ------------------------------------------------------------------------
 
-Thank you!
-----------
+## Thank you!
 
 Thanks for listening, thanks R-Ladies East Lansing & R-Ladies Chicago for organizing! :pray:
 
 Happy R package development! :package:
 
-<a href="https://tiny.cc/r-pkg" class="uri">https://tiny.cc/r-pkg</a>
+<https://tiny.cc/r-pkg>
 

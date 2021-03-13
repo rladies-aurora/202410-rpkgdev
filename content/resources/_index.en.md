@@ -5,7 +5,7 @@ chapter: false
 slides: false
 menuTitle: Resources
 output: hugodown::md_document
-rmd_hash: bd190e640522b040
+rmd_hash: 17c504c587870faf
 
 ---
 
@@ -25,6 +25,8 @@ rmd_hash: bd190e640522b040
 
 -   [R-hub blog](https://blog.r-hub.io)
 
+-   [Tidyverse style guide](https://style.tidyverse.org/)
+
 -   [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html) (one piece at a time)
 
 -   [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
@@ -33,7 +35,7 @@ rmd_hash: bd190e640522b040
 
 ## Continuous integration in particular
 
--   [A Beginner's Guide to Travis-CI for R](https://juliasilge.com/blog/beginners-guide-to-travis/) by Julia Silge
+-   [A Beginner's Guide to Travis-CI for R](https://juliasilge.com/blog/beginners-guide-to-travis/) by Julia Silge (for learning about continuous integration; Travis itself is [no longer recommended](https://ropensci.org/blog/2020/11/19/moving-away-travis/))
 
 -   [GitHub Actions for R](https://www.jimhester.com/talk/2020-rsc-github-actions/) by Jim Hester
 

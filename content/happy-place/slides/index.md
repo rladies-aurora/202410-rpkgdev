@@ -157,7 +157,7 @@ Further resources
 Thank you!
 ----------
 
-Thanks for listening, thanks R-Ladies Bergen for organizing! :pray:
+Thanks for listening, thanks R-Ladies East Lansing & R-Ladies Chicago for organizing! :pray:
 
 Happy R package development! :package:
 

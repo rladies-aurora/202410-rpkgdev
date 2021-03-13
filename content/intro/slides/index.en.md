@@ -7,13 +7,27 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: e3412a5edb8749ec
+rmd_hash: aa0f42b91886d86b
 
 ---
 
 # Become an R Package Developer!
 
 :wave: Hello!
+
+------------------------------------------------------------------------
+
+## Bonjour depuis Nancy !
+
+<div class="highlight">
+
+</div>
+
+<div class="highlight">
+
+{{< figure src="4843787.jpeg" alt="View from the Stanislas square in Nancy" caption="Picture by [Dimitry Anikin on Pexels](https://www.pexels.com/photo/aged-historical-porte-desilles-triumphal-arch-on-cloudy-day-4843787/)." width="600" >}}
+
+</div>
 
 ------------------------------------------------------------------------
 
@@ -144,10 +158,6 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 ------------------------------------------------------------------------
 
 ## R CMD check (devtools::check())
-
-<div class="highlight">
-
-</div>
 
 <div class="highlight">
 

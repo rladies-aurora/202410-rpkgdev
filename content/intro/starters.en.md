@@ -7,13 +7,13 @@ Before you start writing packages...
 
 * Set up your system as [explained in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/setup.html)
 
-* Learn how to write functions. Three useful links:
+* Learn how to write functions. Some useful links:
     * [Write your own R functions](https://stat545.com/functions-part1.html), stat 545 course by Jenny Bryan and The STAT 545 TAs;
     * [Chapter about functions](https://r4ds.had.co.nz/functions.html) in the book "R for Data Science" by Garrett Grolemund and Hadley Wickham;
     * [Fun with Functions talk](https://www.kaylea.co.uk/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
     * [Materials from Stephanie Kirmer's tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)    
     
-Recommended but not necessary...
+Also recommended...
   
 * I use the usethis package a lot :robot: :sparkles:, and recommend doing so. Follow [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html) in particular [_"Use usethis or devtools in interactive work"_](https://usethis.r-lib.org/articles/articles/usethis-setup.html#use-usethis-or-devtools-in-interactive-work-1) and the Git/GitHub stuff.
 

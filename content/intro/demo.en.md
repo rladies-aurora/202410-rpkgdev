@@ -2,19 +2,25 @@
 title: Demo
 weight: 1
 output: hugodown::md_document
-rmd_hash: c51a5d1ab43a1530
+rmd_hash: 632199fa80d05011
 
 ---
 
-System setup
-------------
+-   `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
+
+## System setup
 
 -   [`install.packages("devtools")`](https://rdrr.io/r/utils/install.packages.html). [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
 
+-   [`devtools::has_devel()`](https://rdrr.io/pkg/pkgbuild/man/has_compiler.html)
+
+-   [`devtools::dev_sitrep()`](https://devtools.r-lib.org//reference/dev_sitrep.html)
+
+-   [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html)
+
 -   usethis and devtools setup in my .Rprofile. [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html)
 
-Package creation
-----------------
+## Package creation
 
 -   [`available::available("minipkg")`](https://rdrr.io/pkg/available/man/available.html)
 

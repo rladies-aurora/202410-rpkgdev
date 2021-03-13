@@ -4,9 +4,17 @@ weight: 1
 output: hugodown::md_document
 ---
 
+* `.Library`, `.libPaths()`
+
 ## System setup
 
 * `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
+
+* `devtools::has_devel()`
+
+* `devtools::dev_sitrep()`
+
+* `usethis::git_sitrep()`
 
 * usethis and devtools setup in my .Rprofile. `usethis::edit_r_profile()`
 

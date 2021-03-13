@@ -2,7 +2,7 @@
 title: Demo
 weight: 1
 output: hugodown::md_document
-rmd_hash: 632199fa80d05011
+rmd_hash: ed347b4b4d7a242f
 
 ---
 
@@ -62,7 +62,7 @@ rmd_hash: 632199fa80d05011
 
 -   [`install.packages("pkgdown")`](https://rdrr.io/r/utils/install.packages.html), [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html)
 
--   [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html) for information
-
 -   [`usethis::use_github_action("pkgdown")`](https://usethis.r-lib.org/reference/use_github_action.html), change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+
+-   [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html) for information
 

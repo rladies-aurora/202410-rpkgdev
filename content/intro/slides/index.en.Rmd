@@ -158,7 +158,7 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ## Website tour
 
-:link: https://tiny.cc/r-pkg
+:link: https://pkg-dev-el.netlify.app
 
 Slides, notes from the demo, further resources, comments!
 

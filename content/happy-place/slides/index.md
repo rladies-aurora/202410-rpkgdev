@@ -156,5 +156,5 @@ Thanks for listening, thanks R-Ladies East Lansing & R-Ladies Chicago for organi
 
 Happy R package development! :package:
 
-<https://tiny.cc/r-pkg>
+<https://pkg-dev-el.netlify.app>
 

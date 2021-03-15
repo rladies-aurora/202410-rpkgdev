@@ -1,4 +1,4 @@
-baseURL = "https://new-r-dev.netlify.app/"
+baseURL = "https://pkg-dev-el.netlify.app/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "Become an R Package Developer!"

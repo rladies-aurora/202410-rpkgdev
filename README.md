@@ -3,7 +3,7 @@
 ## Workshop for R-Ladies East Lansing & R-Ladies Chicago | 2021-03-26
 
 This repo contains the materials for a 2 hour workshop on R package development. <br>
-Visit [new-r-dev.netlify.app/](https://new-r-dev.netlify.app) to see the live version!
+Visit [https://pkg-dev-el.netlify.app/](https://pkg-dev-el.netlify.app/) to see the live version!
 
 ### Instructor (+ Content)
 Maelle Salmon | ([@maelle](//github.com/maelle)) | [masalmon.eu](https://masalmon.eu) | [@ma_salmon](//twitter.com/ma_salmon)
@@ -19,7 +19,7 @@ Maelle Salmon | ([@maelle](//github.com/maelle)) | [masalmon.eu](https://masalmo
 - Install [`testthat`](https://github.com/r-lib/testthat), [`usethis`](https://cran.r-project.org/web/packages/usethis/index.html), [`roxygen2`](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) packages
 
 ## Further Reading
-* https://new-r-dev.netlify.app/resources/
+* https://pkg-dev-el.netlify.app/resources/
 * https://r-pkgs.org
 * https://devguide.ropensci.org
 * https://r-pkgs.org/man.html
@@ -27,7 +27,7 @@ Maelle Salmon | ([@maelle](//github.com/maelle)) | [masalmon.eu](https://masalmo
 ***
 
 <!-- badges: start -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f22fafc1-d0ad-4953-9a19-fec35f797777/deploy-status)](https://app.netlify.com/sites/new-r-dev/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b2a162b-e0f5-4c74-a52f-091c12d40229/deploy-status)](https://app.netlify.com/sites/pkg-dev-el/deploys)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 

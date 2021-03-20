@@ -4,6 +4,8 @@ weight: 1
 output: hugodown::md_document
 ---
 
+Note to Maëlle: SLOW DOWN!! Commit often, show state of folder. Mute if typing secrets or just typing a lot as you type loudly.
+
 * `.Library`, `.libPaths()`
 
 ## System setup
@@ -16,7 +18,9 @@ output: hugodown::md_document
 
 * `usethis::git_sitrep()`
 
-* usethis and devtools setup in my .Rprofile. `usethis::edit_r_profile()`
+* usethis and devtools setup in my .Rprofile. `usethis::edit_r_profile()`, what is an .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+
+Setup is not fun!
 
 ## Package creation
 
@@ -34,7 +38,7 @@ output: hugodown::md_document
 
 * Insert roxygen2 skeleton.
 
-* `devtools::document()`, `?what_time`
+* `devtools::document()`, `?what_time`, show the Rd file.
 
 * `devtools::check()`, `usethis::use_mit_license` 
 

@@ -2,9 +2,11 @@
 title: Demo
 weight: 1
 output: hugodown::md_document
-rmd_hash: ed347b4b4d7a242f
+rmd_hash: 3819b8979b32d02a
 
 ---
+
+Note to Maëlle: SLOW DOWN!! Commit often, show state of folder. Mute if typing secrets or just typing a lot as you type loudly.
 
 -   `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
 
@@ -18,7 +20,9 @@ rmd_hash: ed347b4b4d7a242f
 
 -   [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html)
 
--   usethis and devtools setup in my .Rprofile. [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html)
+-   usethis and devtools setup in my .Rprofile. [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html), what is an .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+
+Setup is not fun!
 
 ## Package creation
 
@@ -36,7 +40,7 @@ rmd_hash: ed347b4b4d7a242f
 
 -   Insert roxygen2 skeleton.
 
--   [`devtools::document()`](https://devtools.r-lib.org//reference/document.html), `?what_time`
+-   [`devtools::document()`](https://devtools.r-lib.org//reference/document.html), `?what_time`, show the Rd file.
 
 -   [`devtools::check()`](https://devtools.r-lib.org//reference/check.html), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html)
 

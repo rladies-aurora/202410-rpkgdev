@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: aa0f42b91886d86b
+rmd_hash: cf90ae1f83c41055
 
 ---
 
@@ -35,13 +35,13 @@ rmd_hash: aa0f42b91886d86b
 
 I really :heart: R package development
 
--   Volunteer editor for [rOpenSci Software Peer Review](https://ropensci.org/software-review)
+-   Volunteer editor for [rOpenSci Software Peer Review](https://ropensci.org/software-review).
 
--   At work, maintenance of [rOpenSci dev guide](https://devguide.ropensci.org)
+-   At work, maintenance of [rOpenSci dev guide](https://devguide.ropensci.org).
 
--   Created the [R-hub blog](https://blog.r-hub.io) (:wave: [guest author Julia](https://blog.r-hub.io/2020/01/08/cran-error/)!)
+-   Created the [R-hub blog](https://blog.r-hub.io).
 
--   Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book
+-   Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book.
 
 ------------------------------------------------------------------------
 
@@ -61,11 +61,11 @@ Easiest way to share code/data/R Markdown templates... with
 
 [Jon Calder](https://joncalder.co.za/)'s very good [wording](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
 
--   To share code (and data)
+-   To share code (and data);
 
--   To leverage existing tooling
+-   To leverage existing tooling;
 
--   To contribute to other packages
+-   To contribute to other packages.
 
 ------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
 
 -   Could you *learn* how to write a function in R?
 
--   **You can write a package in R**
+:arrow_right: **You can write a package in R!**
 
 ------------------------------------------------------------------------
 
@@ -143,9 +143,9 @@ Slides, notes from the demo, further resources, comments!
 
 ## Time for a demo :rocket:
 
-Notes on the [course website](/intro/demo)
+Notes on the [course website](/intro/demo).
 
-Also refer to the [Whole game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html)
+Also refer to the [Whole game chapter of the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/whole-game.html).
 
 ------------------------------------------------------------------------
 
@@ -169,23 +169,23 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 ## So what's really hard?
 
--   Writing good code
+-   Writing good code.
 
--   Writing a good interface
+-   Writing a good interface.
 
--   Writing good docs
+-   Writing good docs.
 
 ------------------------------------------------------------------------
 
 ## More with packages
 
--   [`usethis::use_rmarkdown_template()`](https://usethis.r-lib.org/reference/use_rmarkdown_template.html)
+-   [`usethis::use_rmarkdown_template()`](https://usethis.r-lib.org/reference/use_rmarkdown_template.html).
 
--   distributing data [`usethis::use_data()`](https://usethis.r-lib.org/reference/use_data.html)
+-   Distributing data [`usethis::use_data()`](https://usethis.r-lib.org/reference/use_data.html).
 
--   packaging a Shiny app (look for examples, and [golemverse](https://golemverse.org/))
+-   Packaging a Shiny app (look for examples, and [golemverse](https://golemverse.org/)).
 
--   Reproducible analyses, [research compendium](https://annakrystalli.me/rrresearch/10_compendium.html)
+-   Reproducible analyses, [research compendium](https://annakrystalli.me/rrresearch/10_compendium.html).
 
 ------------------------------------------------------------------------
 
@@ -193,7 +193,7 @@ Also refer to the [Whole game chapter of the R packages book by Hadley Wickham a
 
 -   If developing a package for wider distribution, check it does not exist yet.
 
--   Miles McBain's post ["Project as an R package: An okay idea"](https://milesmcbain.xyz/posts/an-okay-idea/)
+-   Miles McBain's post ["Project as an R package: An okay idea"](https://milesmcbain.xyz/posts/an-okay-idea/).
 
 ------------------------------------------------------------------------
 

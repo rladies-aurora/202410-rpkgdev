@@ -2,7 +2,7 @@
 title: Demo
 weight: 1
 output: hugodown::md_document
-rmd_hash: 3819b8979b32d02a
+rmd_hash: 59df9300adfe2f11
 
 ---
 
@@ -34,7 +34,7 @@ Setup is not fun!
 
 -   in a shell `git branch -m master main`
 
--   [`usethis::use_r("current-time")`](https://usethis.r-lib.org/reference/use_r.html)
+-   [`usethis::use_r("time")`](https://usethis.r-lib.org/reference/use_r.html). Explain what [`sprintf()`](https://rdrr.io/r/base/sprintf.html) does.
 
 -   `devtools::load()`, `what_time()`
 
@@ -46,9 +46,9 @@ Setup is not fun!
 
 -   add an argument, `@param language blabla` in docs, [`devtools::document()`](https://devtools.r-lib.org//reference/document.html), `?what_time`
 
--   [`usethis::use_test("current-time")`](https://usethis.r-lib.org/reference/use_r.html)
+-   [`usethis::use_test("current-time")`](https://usethis.r-lib.org/reference/use_r.html): first a simple test, then a snapshot test, then a snapshot of the error.
 
--   [`devtools::test()`](https://devtools.r-lib.org//reference/test.html)
+-   [`devtools::test()`](https://devtools.r-lib.org//reference/test.html) / test the file on its own via the button.
 
 -   [`devtools::check()`](https://devtools.r-lib.org//reference/check.html)
 
@@ -58,13 +58,13 @@ Setup is not fun!
 
 -   [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff
 
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html), [`usethis::use_github_links()`](https://usethis.r-lib.org/reference/use_github_links.html)
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html) ([`usethis::use_github_links()`](https://usethis.r-lib.org/reference/use_github_links.html)). Show the GitHub repo, its description.
 
 -   Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
 
--   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/use_github_action.html)
+-   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/use_github_action.html). Check on the cloud, different operating systems.
 
--   [`install.packages("pkgdown")`](https://rdrr.io/r/utils/install.packages.html), [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html)
+-   [`install.packages("pkgdown")`](https://rdrr.io/r/utils/install.packages.html), [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Locally.
 
 -   [`usethis::use_github_action("pkgdown")`](https://usethis.r-lib.org/reference/use_github_action.html), change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
 

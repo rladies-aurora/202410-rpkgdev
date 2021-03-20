@@ -44,9 +44,7 @@ test_that("what_time() works", {
 ```r
 what_time <- function(language = "fr") {
 
-  if (!language %in% c("fr", "en")) {
-    stop("Either choose fr or en as a language.")
-  }
+  rlang::arg_match0(language, c("fr", "en"))
 
   time <- format(Sys.time(), "%H:%M")
 

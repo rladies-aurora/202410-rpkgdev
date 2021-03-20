@@ -5,13 +5,15 @@ chapter: false
 slides: false
 menuTitle: Resources
 output: hugodown::md_document
-rmd_hash: 43bf1c53f5a26c0e
+rmd_hash: 60ae425a9158a209
 
 ---
 
 ## R package development
 
 -   [R Packages book](https://r-pkgs.org) by Hadley Wickham and Jenny Bryan.
+
+-   [RStudio Package Development Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/package-development.pdf).
 
 -   [Shannon Pileggi's "Your first R package in 1 hour"](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/).
 

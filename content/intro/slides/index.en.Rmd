@@ -156,6 +156,16 @@ Get to know an actually useful Clippy, `{usethis}`!
 
 ---
 
+## Goals for today
+
+* Get to know (the best :innocent:) tools for package development;
+
+* Learn that there is no magic, only practice and :sparkles: tips :sparkles:;
+
+* Think about whether to contribute to open-source packages.
+
+---
+
 ## Website tour
 
 :link: https://pkg-dev-el.netlify.app

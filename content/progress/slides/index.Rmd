@@ -131,6 +131,12 @@ Couple a thing (R CMD check? pkgdown site building?) to
 
 ---
 
+## Pre-commit
+
+🤫 You can still skip the checks.
+
+---
+
 ## Check things before show time
 
 
@@ -140,7 +146,7 @@ CRAN release! 🐉 Checks on different platforms, URLs, spell checks...
 
 * [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html) creating a GitHub issue with important items.
 
-* [`devtools::release()` function](https://github.com/r-lib/devtools/blob/b166195be72927a003e6937de5c3239881095a9f/R/release.R#L39)
+* or [`devtools::release()` function](https://github.com/r-lib/devtools/blob/b166195be72927a003e6937de5c3239881095a9f/R/release.R#L39)
 
 ---
 

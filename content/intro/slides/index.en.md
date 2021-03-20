@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: cf90ae1f83c41055
+rmd_hash: 022c3f0b81cf8bd4
 
 ---
 
@@ -130,6 +130,16 @@ Get to know an actually useful Clippy, `{usethis}`!
 ## `usethis` and co
 
 {{< tweet 935562495816753153 >}}
+
+------------------------------------------------------------------------
+
+## Goals for today
+
+-   Get to know (the best :innocent:) tools for package development;
+
+-   Learn that there is no magic, only practice and :sparkles: tips :sparkles:;
+
+-   Think about whether to contribute to open-source packages.
 
 ------------------------------------------------------------------------
 

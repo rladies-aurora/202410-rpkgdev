@@ -7,26 +7,23 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 9a416f904069d3cf
+rmd_hash: 23e43a9930a2cf70
 
 ---
 
-How to improve your R package
-=============================
+# How to improve your R package
 
 Automatically ✨, and not 🧠
 
 ------------------------------------------------------------------------
 
-Workflow automation tools
-=========================
+# Workflow automation tools
 
 :robot:
 
 ------------------------------------------------------------------------
 
-Assessing your package
-----------------------
+## Assessing your package
 
 -   [R CMD check or `devtools::check()`](http://r-pkgs.org/check.html), [`BiocCheck`](https://bioconductor.org/packages/release/bioc/html/BiocCheck.html)
 
@@ -38,8 +35,7 @@ Assessing your package
 
 ------------------------------------------------------------------------
 
-Improve metrics by hand?!
--------------------------
+## Improve metrics by hand?!
 
 Yes and no!
 
@@ -47,8 +43,7 @@ Yes and no!
 
 ------------------------------------------------------------------------
 
-Tools for improving
--------------------
+## Tools for improving
 
 -   [`styler`](https://styler.r-lib.org/). Better paired with [version control](https://happygitwithr.com/).
 
@@ -60,8 +55,7 @@ Tools for improving
 
 ------------------------------------------------------------------------
 
-When and where to use the tools?
---------------------------------
+## When and where to use the tools?
 
 Right after my talk (not now 😜), but then?
 
@@ -69,8 +63,7 @@ Right after my talk (not now 😜), but then?
 
 ------------------------------------------------------------------------
 
-Continuous integration
-----------------------
+## Continuous integration
 
 **Run something every time you make a change**
 
@@ -80,8 +73,7 @@ Travis, GitHub Actions, Circle CI, [`tic` package](https://docs.ropensci.org/tic
 
 ------------------------------------------------------------------------
 
-Continuous integration
-----------------------
+## Continuous integration
 
 How to learn?
 
@@ -91,8 +83,7 @@ How to learn?
 
 ------------------------------------------------------------------------
 
-More with continuous integration
---------------------------------
+## More with continuous integration
 
 Couple a thing (R CMD check? pkgdown site building?) to
 
@@ -104,15 +95,13 @@ Couple a thing (R CMD check? pkgdown site building?) to
 
 ------------------------------------------------------------------------
 
-Pre-commit
-----------
+## Pre-commit
 
 {{< figure src="mara.jpg" alt="Tired: Always remember to do things well. Wired: Use continuous integration to notice wrong stuff" caption="Illustration by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)" width=400 >}}
 
 ------------------------------------------------------------------------
 
-Pre-commit
-----------
+## Pre-commit
 
 [`precommit` R package](https://lorenzwalthert.github.io/precommit/) -- Python [precommit framework](https://pre-commit.com/)
 
@@ -122,8 +111,13 @@ Pre-commit
 
 ------------------------------------------------------------------------
 
-Check things before show time
------------------------------
+## Pre-commit
+
+🤫 You can still skip the checks.
+
+------------------------------------------------------------------------
+
+## Check things before show time
 
 CRAN release! 🐉 Checks on different platforms, URLs, spell checks...
 
@@ -131,12 +125,11 @@ CRAN release! 🐉 Checks on different platforms, URLs, spell checks...
 
 -   [`usethis::use_release_issue()`](https://usethis.r-lib.org/reference/use_release_issue.html) creating a GitHub issue with important items.
 
--   [`devtools::release()` function](https://github.com/r-lib/devtools/blob/b166195be72927a003e6937de5c3239881095a9f/R/release.R#L39)
+-   or [`devtools::release()` function](https://github.com/r-lib/devtools/blob/b166195be72927a003e6937de5c3239881095a9f/R/release.R#L39)
 
 ------------------------------------------------------------------------
 
-Improve workflow vs. procrastinate
-----------------------------------
+## Improve workflow vs. procrastinate
 
 Risk of spending too much time on [meta-work](https://youtu.be/dIjKJjzRX_E?t=633).
 
@@ -146,13 +139,11 @@ As a beginner, easier to create good habits. :wink:
 
 ------------------------------------------------------------------------
 
-Reading code & about code
-=========================
+# Reading code & about code
 
 ------------------------------------------------------------------------
 
-Why read source code
---------------------
+## Why read source code
 
 -   You want to know what is going on.
 
@@ -164,8 +155,7 @@ Why read source code
 
 ------------------------------------------------------------------------
 
-How to read source code
------------------------
+## How to read source code
 
 -   [`lookup` package](https://github.com/jimhester/lookup#readme)
 
@@ -175,8 +165,7 @@ How to read source code
 
 ------------------------------------------------------------------------
 
-Reading code...
----------------
+## Reading code...
 
 And trying things out!
 
@@ -186,8 +175,7 @@ Fork, clone, and explore!
 
 ------------------------------------------------------------------------
 
-Read blogs and fora
--------------------
+## Read blogs and fora
 
 Blog posts: digested information.
 
@@ -201,8 +189,7 @@ Blog posts: digested information.
 
 ------------------------------------------------------------------------
 
-Read blogs and fora
--------------------
+## Read blogs and fora
 
 Fora: Help and learn.
 
@@ -212,8 +199,7 @@ Fora: Help and learn.
 
 ------------------------------------------------------------------------
 
-rOpenSci Software Peer Review
------------------------------
+## rOpenSci Software Peer Review
 
 [Transparent, constructive, non adversarial and open review process](https://devguide.ropensci.org/softwarereviewintro.html#whatissoftwarereview) for packages [in scope](https://devguide.ropensci.org/policies.html#aims-and-scope).
 
@@ -223,29 +209,25 @@ Interesting for authors, and reviewers!
 
 ------------------------------------------------------------------------
 
-rOpenSci Software Peer Review
------------------------------
+## rOpenSci Software Peer Review
 
 🚀 Even more review and best practice on the way! [rOpenSci Statistical Software Peer Review](https://ropensci.org/stat-software-review/)
 
 ------------------------------------------------------------------------
 
-Other venues
-------------
+## Other venues
 
 See also JOSS, R Journal, JSS.
 
 ------------------------------------------------------------------------
 
-Questions?
-----------
+## Questions?
 
 Write them in the shared doc.
 
 ------------------------------------------------------------------------
 
-Time for a break! :tea:
------------------------
+## Time for a break! :tea:
 
 <!--html_preserve-->
 

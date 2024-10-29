@@ -7,8 +7,6 @@ This repo contains the materials for a 1 hour workshop on R package development.
 ### Instructor (+ Content)
 Zhixin Lun | zhixin.lun@cuanschutz.edu
 
-<img src="https://user-images.githubusercontent.com/8397074/110816176-1ae75300-8259-11eb-8376-b678ee6bdf29.png" width="50%">
-
 ### Organizers
 - [R-Ladies East Lansing](//github.com/rladies-eastlansing) | [@RLadiesELansing](//twitter.com/RLadiesELansing)
 - [R-Ladies Chicago](//github.com/rladies-chicago) | [@RLadiesChicago](//twitter.com/RLadiesChicago)

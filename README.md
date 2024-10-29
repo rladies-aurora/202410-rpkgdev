@@ -7,10 +7,6 @@ This repo contains the materials for a 1 hour workshop on R package development.
 ### Instructor (+ Content)
 Zhixin Lun | zhixin.lun@cuanschutz.edu
 
-### Organizers
-- [R-Ladies East Lansing](//github.com/rladies-eastlansing) | [@RLadiesELansing](//twitter.com/RLadiesELansing)
-- [R-Ladies Chicago](//github.com/rladies-chicago) | [@RLadiesChicago](//twitter.com/RLadiesChicago)
-
 ## Setup instructions
 - [R/RStudio setup](https://github.com/rladies-eastlansing/meetup-presentations/blob/master/presentations/R_Rstudio_setup_instructions.md)
 - Install [`devtools`](https://cran.r-project.org/web/packages/devtools/index.html), [`roxygen2`](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) packages

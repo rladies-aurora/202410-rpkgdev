@@ -21,3 +21,11 @@ Zhixin Lun | zhixin.lun@cuanschutz.edu
 * https://r-pkgs.org/man.html
 
 
+## Today's Sponsor
+
+**The Mitchell Lab**
+
+Dr. James Mitchell's research encompasses AI, HCI, UCD, mobile applications, and wearables. His studies investigate augmented reality applications for public engagement and user-centered design for clinical guidelines on mobile devices. He measures healthcare professionals' experiences with AI technologies and leverages allied health data to improve AI applications, focusing on social determinants of health and intersectionality. Additionally, Dr. Mitchell designs user-centered solutions and explores the potential of large language models (LLMs) in both clinical settings and user-centered design studies. His work aims to advance healthcare technology through innovative AI solutions and user-centered design methodologies.
+
+
+

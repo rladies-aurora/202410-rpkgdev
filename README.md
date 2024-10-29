@@ -1,9 +1,8 @@
 
 # Become an R package developer!
-## Workshop for R-Ladies East Lansing & R-Ladies Chicago | 2021-03-26
+## Workshop for R-Ladies Aurora | 2024-10-29
 
-This repo contains the materials for a 2 hour workshop on R package development. <br>
-Visit [https://pkg-dev-el.netlify.app/](https://pkg-dev-el.netlify.app/) to see the live version!
+This repo contains the materials for a 1 hour workshop on R package development.
 
 ### Instructor (+ Content)
 Zhixin Lun | zhixin.lun@cuanschutz.edu
